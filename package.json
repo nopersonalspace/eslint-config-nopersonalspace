@@ -21,6 +21,7 @@
   "author": "Harris McCullers",
   "license": "MIT",
   "dependencies": {
+    "@semantic-release/git": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -37,9 +38,10 @@
     "eslint-plugin-unicorn": "^41.0.0"
   },
   "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
     "next": "12.1.5",
     "react": "18.0.0",
-    "eslint": "^7.32.0 || ^8.2.0",
+    "semantic-release": "^21.0.2",
     "typescript": "^4.7.4"
   },
   "peerDependencies": {
@@ -48,5 +50,8 @@
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
   }
 }
